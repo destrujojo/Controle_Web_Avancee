@@ -12,9 +12,9 @@ async function AppelleApi(nbrlimite) {
     let newDiv = document.createElement("div");
     let maDiv = document.querySelector(".img_caracter_list");
 
-    newDiv.classList.add("caracter_detail", data[i].id, data[i].house);
+    newDiv.classList.add("caracter_detail", data[i].id);
 
-    newDiv.innerHTML = `<div class="img_caracter"><img src="${data[i].image}" alt="" /></div>
+    newDiv.innerHTML = `<div class="img_caracter"><img src="${data[i].image}" alt="" class="${data[i].house}" /></div>
               <p>${data[i].name}</p>`;
 
     maDiv.appendChild(newDiv);

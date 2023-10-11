@@ -209,6 +209,29 @@ main {
     border-radius: 150px;
 }
 
+.Gryffindor:hover {
+    border-radius: 150px;
+    border: 8px solid #B71713;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Slytherin:hover {
+    border-radius: 150px;
+    border: 8px solid #124B10;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Ravenclaw:hover {
+    border-radius: 150px;
+    border: 8px solid #078CB1;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Hufflepuff:hover {
+    border-radius: 150px;
+    border: 8px solid #E1B50C;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
 
 /* 2xl */
 @media (max-width: 1536px) {}
